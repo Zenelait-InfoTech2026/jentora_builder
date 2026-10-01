@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 380" width="100%" height="100%">
+  <defs>
+    <style>
+      .logo-shape { fill: none; stroke: #ffffff; stroke-width: 15; stroke-linecap: round; stroke-linejoin: round; }
+      .logo-brand-text { font-family: 'Space Grotesk', 'Impact', sans-serif; font-size: 27px; font-weight: 700; letter-spacing: 4.5px; fill: #ffffff; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <g class="logo-shape">
+    <!-- Outer Left Wing Arch -->
+    <path d="M 250 45 C 200 90, 115 190, 95 240 C 75 295, 125 315, 175 295 C 220 275, 245 220, 250 180" />
+    
+    <!-- Outer Right Wing Arch -->
+    <path d="M 250 45 C 300 90, 385 190, 405 240 C 425 295, 375 315, 325 295 C 280 275, 255 220, 250 180" />
+
+    <!-- Center Interlocking Left Peak -->
+    <path d="M 250 115 L 175 240 C 150 280, 180 310, 215 310 C 245 310, 250 280, 250 255" />
+    
+    <!-- Center Interlocking Right Peak -->
+    <path d="M 250 115 L 325 240 C 350 280, 320 310, 285 310 C 255 310, 250 280, 250 255" />
+
+    <!-- Bottom Base Triangular Loop -->
+    <path d="M 195 305 C 220 355, 280 355, 305 305 L 250 220 Z" />
+  </g>
+
+  <!-- Brand Title -->
+  <text x="250" y="370" class="logo-brand-text">JENTORA BUILDER PVT LTD</text>
+</svg>
