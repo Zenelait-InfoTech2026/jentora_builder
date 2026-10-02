@@ -451,7 +451,7 @@ html, body {
 }
 
 .powered-by-badge span {
-  font-size: 1.00rem;
+  font-size: 1.5rem;
   color: var(--text-dim);
   font-weight: 600;
   letter-spacing: 1.2px;
@@ -461,11 +461,12 @@ html, body {
 }
 
 .powered-by-logo {
-  height: 42px;
+  height: 52px;
   width: auto;
   object-fit: contain;
   filter: brightness(1.1);
   transition: filter 0.3s ease, transform 0.3s ease;
+  border-radius: 12px;
 }
 
 .powered-by-badge:hover .powered-by-logo {
